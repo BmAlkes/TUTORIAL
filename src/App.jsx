@@ -1,10 +1,10 @@
-import UseEffectBasics from "./tutorial/02-useEffect/02-useEffect-basics";
+import FetchData from "./tutorial/02-useEffect/04-fetch-data";
 
 function App() {
   return (
     <div className="container">
       <h2>Advanced React</h2>
-      <UseEffectBasics />
+      <FetchData />
     </div>
   );
 }
