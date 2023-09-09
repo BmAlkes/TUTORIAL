@@ -23,8 +23,14 @@ export const MultpleReturnFetchData = () => {
   return (
     <div>
       <h2>Fetch Data</h2>
-      <img src={user?.avatar_url} alt="" />
-      <h2></h2>
+      <img
+        src={user?.avatar_url}
+        alt=""
+        style={{ width: "150px", borderRadius: "50%" }}
+      />
+      <h2>{user.name}</h2>
+      <h4>Work At {user.company} </h4>
+      <p>{user.bio}</p>
     </div>
   );
 };
