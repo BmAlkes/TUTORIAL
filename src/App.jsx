@@ -1,11 +1,10 @@
-import { List } from "./tutorial/05-leverage-javascript/List";
-import { ControlledInput } from "./tutorial/06-forms/controlledInput";
+import UserChallenge from "./tutorial/06-forms/02-user-challenge";
 
 function App() {
   return (
     <div className="container">
       <h2>Advanced React</h2>
-      <ControlledInput />
+      <UserChallenge />
     </div>
   );
 }
