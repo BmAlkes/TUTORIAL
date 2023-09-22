@@ -1,10 +1,10 @@
-import OtherInputs from "./tutorial/06-forms/04-others-inputs";
+import UncontrolledInputs from "./tutorial/06-forms/05-form-data";
 
 function App() {
   return (
     <div className="container">
       <h2>Advanced React</h2>
-      <OtherInputs />
+      <UncontrolledInputs />
     </div>
   );
 }
