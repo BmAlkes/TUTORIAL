@@ -1,10 +1,10 @@
-import UncontrolledInputs from "./tutorial/06-forms/05-form-data";
+import UseRefBasics from "./tutorial/07-useRef/useRef";
 
 function App() {
   return (
     <div className="container">
       <h2>Advanced React</h2>
-      <UncontrolledInputs />
+      <UseRefBasics />
     </div>
   );
 }
