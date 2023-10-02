@@ -1,10 +1,10 @@
-import UseRefBasics from "./tutorial/07-useRef/useRef";
+import FetchData from "./tutorial/08-custom-hooks/02-fetch-data";
 
 function App() {
   return (
     <div className="container">
       <h2>Advanced React</h2>
-      <UseRefBasics />
+      <FetchData />
     </div>
   );
 }
