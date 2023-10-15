@@ -1,7 +1,7 @@
-import { Navbar } from "./tutorial/09-context-api/context-api/Navbar";
+import ReducerBasics from "./tutorial/10-useReducer/01-useReducer";
 
 function App() {
-  return <Navbar />;
+  return <ReducerBasics />;
 }
 
 export default App;
