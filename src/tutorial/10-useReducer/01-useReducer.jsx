@@ -40,7 +40,7 @@ const ReducerBasics = () => {
   const resetList = () => {
     dispatch({ type: "RESET_LIST" });
   };
-  console.log(state);
+
   return (
     <div className="container">
       {state.people.map((person) => {
@@ -48,7 +48,12 @@ const ReducerBasics = () => {
         return (
           <div key={id} className="item">
             <h4>{name}</h4>
-            <button onClick={() => removeItem(id)}>remove</button>
+            <button
+              onClick={() => removeItem(id)}
+              className="btn alert-danger "
+            >
+              remove
+            </button>
           </div>
         );
       })}

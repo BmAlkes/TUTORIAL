@@ -1,7 +1,7 @@
-import ReducerBasics from "./tutorial/10-useReducer/01-useReducer";
+import LowerStateChallenge from "./tutorial/11-performance/02-lower-state-challenge";
 
 function App() {
-  return <ReducerBasics />;
+  return <LowerStateChallenge />;
 }
 
 export default App;
